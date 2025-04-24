@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BongaBot - Kenyan AI Assistant</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f5f5;
+      color: #222;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 2rem 1rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    .content {
+      padding: 2rem;
+    }
+
+    iframe {
+      width: 90%;
+      height: 500px;
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>👋 Welcome to BongaBot!</h1>
+    <p>Your smart Kenyan AI buddy – available in Swahili, English & Sheng</p>
+  </header>
+
+  <div class="content">
+    <p>Ask me anything – about school, business, or just life.</p>
+
+    <!-- Replace the src below with your chatbot or Tidio link -->
+    <iframe src="https://bongabot.tidiochat.com" title="BongaBot Chat"></iframe>
+  </div>
+
+  <footer>
+    &copy; 2025 BongaBot. Built by Shem Kimani 💻 🇰🇪
+  </footer>
+
+</body>
+</html>
